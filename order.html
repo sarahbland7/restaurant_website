@@ -6,41 +6,46 @@
   </head>
   <body>
     <header>
-      <p ><a href="about.html">ABOUT</a>
-      <a href="menu.html">MENU</a>
-      <a href="order.html">ORDER</a></p>
+      <p class="links"><a href="about.html">ABOUT</a></p>
+      <p class='links'><a href="menu.html">MENU</a></p>
+      <p class='links'><a href="order.html">ORDER</a></p>
     </header>
     <h1>Filthy J's Hot Dogs</h1>
 
     <h2>Menu</h2>
 
-    <table>
-      <tr>
-        <td>Hot Dog</td>
-        <td>A regular old hot dog on a bun</td>
-        <td>$2.00</td>
-      </tr>
-      <tr>
-        <td>Chicago Dog</td>
-        <td>Diced onion, tomato wedges, relish, mustard, sport peppers, poppy seed bun</td>
-        <td>$3.00</td>
-      </tr>
-      <tr>
-        <td>Chili Dog</td>
-        <td>Chili, cheese, mustard, onion</td>
-        <td>$3.00</td>
-      </tr>
-      <tr>
-        <td>Candy Dog</td>
-        <td>Jellybeans, sprinkles</td>
-        <td>$3.00</td>
-      </tr>
-    </table>
+    <form>
 
-    <h2>Location</h2>
+        <labe for="first_name">What's yo name</labe>
+        <input type="text" name="first_name" id="first_name">
 
-    16601 Myers Lake Ave<br>
-    Sand Lake, Michigan 49343<br>
-    (616) 856-8075
+        <br>
+
+        <label for="select_name">How hard are you working, on a scale from 1 to 10?</label>
+        <br>
+        <div id="select_name">
+
+            <input type="radio" name=“favorite_gary_id” value=“1”>-17<br>
+            <input type="radio" name=“favorite_gary_id” value=“2”>null<br>
+            <input type="radio" name=“favorite_gary_id” value=“3”>solid 3<br>
+            <input type="radio" name="favorite_gary_id" value="4">1000<br>
+        </div>
+        <input id="sub_button" type='submit' value='Save'>
+    </form>
+
+    <footer>
+      <p id="address">Address: N/A</p>
+      <div  id="hours">
+        <p>Hours</p>
+        <table>
+          <tr>
+            <td>Sunday-Monday</td><td>Closed</td>
+          </tr>
+          <tr>
+            <td>Tuesday-Saturday</td><td>12:00pm - 10:00pm</td>
+          </tr>
+        </table>
+      </div>
+    </footer>
   </body>
 </html>
