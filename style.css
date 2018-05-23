@@ -6,11 +6,33 @@ figcaption, h1, h2, h3, ul, li, body, div, p, img {
     vertical-align: baseline;
     border: 0;
 }
-header {
-  background-color: black;
-  color: White;
+body{
+  background-color: pink;
+}
+h1{
   text-align: center;
+  font-size: 3em;
+  font-style: oblique;
+}
+header, footer{
+  background-color: black;
+  text-align: center;
+  color: White;
   padding: 3em 0 3em 0;
+}
+footer p{
+  display: inline-block;
+  vertical-align: top;
+}
+footer{
+  padding-top: 1em;
+  padding-bottom: 11em;
+}
+#address{
+  float: left;
+}
+#hours{
+  float: right;
 }
 a:link{
   color: white;
