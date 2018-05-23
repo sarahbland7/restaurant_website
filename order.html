@@ -14,28 +14,24 @@
 
     <h2>Menu</h2>
 
-    <table>
-      <tr>
-        <td>Hot Dog</td>
-        <td>A regular old hot dog on a bun</td>
-        <td>$2.00</td>
-      </tr>
-      <tr>
-        <td>Chicago Dog</td>
-        <td>Diced onion, tomato wedges, relish, mustard, sport peppers, poppy seed bun</td>
-        <td>$3.00</td>
-      </tr>
-      <tr>
-        <td>Chili Dog</td>
-        <td>Chili, cheese, mustard, onion</td>
-        <td>$3.00</td>
-      </tr>
-      <tr>
-        <td>Candy Dog</td>
-        <td>Jellybeans, sprinkles</td>
-        <td>$3.00</td>
-      </tr>
-    </table>
+    <form>
+
+        <labe for="first_name">What's yo name</labe>
+        <input type="text" name="first_name" id="first_name">
+
+        <br>
+
+        <label for="select_name">How hard are you working, on a scale from 1 to 10?</label>
+        <br>
+        <div id="select_name">
+
+            <input type="radio" name=“favorite_gary_id” value=“1”>-17<br>
+            <input type="radio" name=“favorite_gary_id” value=“2”>null<br>
+            <input type="radio" name=“favorite_gary_id” value=“3”>solid 3<br>
+            <input type="radio" name="favorite_gary_id" value="4">1000<br>
+        </div>
+        <input id="sub_button" type='submit' value='Save'>
+    </form>
 
     <footer>
       <p id="address">Address: N/A</p>
