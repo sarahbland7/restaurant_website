@@ -18,3 +18,17 @@ a:link{
 a:visited {
     color: white;
 }
+table {
+  border-spacing: 15px;
+}
+th {
+  text-align: left;
+  padding-top: 15px;
+  font-size: 20px;
+}
+td {
+  text-align: left;
+  /* padding: 5px auto auto 15px; */
+  padding-top: 5px;
+  padding-right: 10px;
+}
